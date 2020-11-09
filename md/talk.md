@@ -237,7 +237,7 @@ The _multi-head_ combines the output of several attention heads to
 
 >>>
 ### What does this look like?
-One can plot the output of attention weights `$\text{softmax}\left(\frac{{Q}{K}^T}{\sqrt{d_\text{model}}} \right)$`:
+One can plot the output of attention weights `$\text{softmax}\left(\frac{QK^T}{\sqrt{d_\text{model}}} \right)$`:
 
 ![](img/attention-plot.png)
 VVV
