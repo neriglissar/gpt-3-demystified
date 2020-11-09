@@ -210,7 +210,7 @@ Where `$\cdot$` takes the dot-product.
 In practice, the attention is computed for all query-key pairs at once and summed.
 So there are matrices `$Q$`, `$K$`, `$V$` and
 `$$
-\text{Attention}({Q}, {K}, {V}) = \text{softmax}\left(\frac{{Q}{K}^T}{\sqrt{d_\text{model}}} \right) {V}
+\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_\text{model}}} \right) V
 $$`
 Hence `$V$` is multiplied by an &lsquo;attention matrix&rsquo; in the attention head.
 VVV
